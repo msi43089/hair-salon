@@ -7,7 +7,7 @@ import logo from "./Assets/images/logo-mobile.png";
 export default function Navigation() {
   const [isOpen, setOpen] = useState(false);
 
-  console.log(window.matchMedia("(max-width: 700px)"));
+  console.log(isOpen);
 
   return (
     <div>
@@ -16,6 +16,25 @@ export default function Navigation() {
           <img src={logo} alt="Company Logo" />
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
+          </div>
+          <div className="full-menu">
+            <ul>
+              <li>
+                <Link>About</Link>
+              </li>
+              <li>
+                <Link>Meet Jess</Link>
+              </li>
+              <li>
+                <Link>Salon Etiquette</Link>
+              </li>
+              <li>
+                <Link>Services</Link>
+              </li>
+              <li>
+                <Link>Contact Us</Link>
+              </li>
+            </ul>
           </div>
         </div>
         <div className={isOpen ? "open" : "collapse"}>

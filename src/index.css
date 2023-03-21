@@ -37,3 +37,31 @@ img {
     display: flex;
 }
 
+.full-menu{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: red solid 1px;
+}
+
+li {
+    border: blue solid 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .full-menu {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .hamburger, .open  {
+      display: none;
+    }
+
+    ul {
+        display: flex
+    }
+   
+}
+
