@@ -2,10 +2,12 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Turn as Hamburger } from "hamburger-react";
-import logo from "./Assets/images/logo.PNG";
+import logo from "./Assets/images/logo-mobile.png";
 
 export default function Navigation() {
   const [isOpen, setOpen] = useState(false);
+
+  console.log(window.matchMedia("(max-width: 700px)"));
 
   return (
     <div>
@@ -16,7 +18,7 @@ export default function Navigation() {
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
         </div>
-        <div className={isOpen ? "collapse" : "open"}>
+        <div className={isOpen ? "open" : "collapse"}>
           <ul>
             <li>
               <Link>About</Link>

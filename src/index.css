@@ -4,12 +4,10 @@ html{
 
 nav {
     display: flex;
-    border: red solid 1px;
     flex-direction: column;
 }
 
 .collapse {
-    border: solid purple 1px;
     overflow: hidden;
     height: 0px
 }
@@ -19,13 +17,23 @@ ul {
     text-align: center;
     padding: 0;
 }
+
 a {
     text-decoration: none;
 }
 
 .nav-collapse {
-    border: blue solid 1px;
     display: flex;
     justify-content: space-between;
+    height:10vh;
+}
+
+img {
+    max-height: 100%;
+}
+
+.hamburger {
+    align-items: center;
+    display: flex;
 }
 
