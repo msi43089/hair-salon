@@ -9,6 +9,10 @@ export default function Navigation() {
 
   console.log(isOpen);
 
+  function handleClick() {
+    setOpen(false);
+  }
+
   return (
     <div>
       <nav>
@@ -20,7 +24,9 @@ export default function Navigation() {
           <div className="full-menu">
             <ul>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" onClick={handleClick}>
+                  About
+                </Link>
               </li>
               <li>
                 <Link to="/jess">Meet Jess</Link>
@@ -40,19 +46,29 @@ export default function Navigation() {
         <div className={isOpen ? "open" : "collapse"}>
           <ul>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" onClick={handleClick}>
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/jess">Meet Jess</Link>
+              <Link to="/jess" onClick={handleClick}>
+                Meet Jess
+              </Link>
             </li>
             <li>
-              <Link to="/etiquette">Salon Etiquette</Link>
+              <Link to="/etiquette" onClick={handleClick}>
+                Salon Etiquette
+              </Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services" onClick={handleClick}>
+                Services
+              </Link>
             </li>
             <li>
-              <Link to="contact">Contact Us</Link>
+              <Link to="contact" onClick={handleClick}>
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
