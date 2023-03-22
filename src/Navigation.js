@@ -20,19 +20,19 @@ export default function Navigation() {
           <div className="full-menu">
             <ul>
               <li>
-                <Link>About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <Link>Meet Jess</Link>
+                <Link to="/jess">Meet Jess</Link>
               </li>
               <li>
-                <Link>Salon Etiquette</Link>
+                <Link to="/etiquette">Salon Etiquette</Link>
               </li>
               <li>
-                <Link>Services</Link>
+                <Link to="services">Services</Link>
               </li>
               <li>
-                <Link>Contact Us</Link>
+                <Link to="contact ">Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -40,24 +40,23 @@ export default function Navigation() {
         <div className={isOpen ? "open" : "collapse"}>
           <ul>
             <li>
-              <Link>About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link>Meet Jess</Link>
+              <Link to="/jess">Meet Jess</Link>
             </li>
             <li>
-              <Link>Salon Etiquette</Link>
+              <Link to="/etiquette">Salon Etiquette</Link>
             </li>
             <li>
-              <Link>Services</Link>
+              <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link>Contact Us</Link>
+              <Link to="contact">Contact Us</Link>
             </li>
           </ul>
         </div>
       </nav>
-      <h1>Home</h1>
     </div>
   );
 }
