@@ -48,6 +48,33 @@ li {
     border: blue solid 1px;
 }
 
+.full-menu > ul > li {
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+    background-color: none;
+}
+
+.about-img, .jess-img {
+    width: 100%;
+}
+
+.about, .jess {
+    padding: 5vw;
+}
+
+.about-title, .jess-title { 
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
 @media screen and (max-width: 600px) {
     .full-menu {
       display: none;

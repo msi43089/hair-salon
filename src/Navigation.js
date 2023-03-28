@@ -24,9 +24,7 @@ export default function Navigation() {
           <div className="full-menu">
             <ul>
               <li>
-                <Link to="/about" onClick={handleClick}>
-                  About
-                </Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
                 <Link to="/jess">Meet Jess</Link>
