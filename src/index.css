@@ -41,11 +41,6 @@ img {
     align-items: center;
     display: flex;
     flex-direction: column;
-    border: red solid 1px;
-}
-
-li {
-    border: blue solid 1px;
 }
 
 .full-menu > ul > li {
@@ -59,20 +54,25 @@ a:link, a:visited, a:hover, a:active {
     background-color: none;
 }
 
-.about-img, .jess-img {
+.about-img {
     width: 100%;
 }
 
-.about, .jess {
+.about, .jess, .contact {
     padding: 5vw;
 }
 
-.about-title, .jess-title { 
+.about-title { 
     text-align: center;
 }
 
 p {
     text-align: justify;
+}
+
+.map {
+    border: 0;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -88,6 +88,14 @@ p {
 
     ul {
         display: flex
+    }
+    .about-body {
+        display: flex;
+        padding-top: 5%
+    }
+    .about-img {
+        width: 50%;
+        padding-right: 5%;
     }
    
 }
