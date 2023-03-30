@@ -56,23 +56,46 @@ a:link, a:visited, a:hover, a:active {
 
 .about-img {
     width: 100%;
+    border: solid red 1px;
 }
 
 .about, .jess, .contact {
-    padding: 5vw;
+    padding: 5%;
+    border: purple solid 1px;
 }
 
 .about-title { 
     text-align: center;
+    border: green solid 1px;
+}
+
+.about-body{
+    border: orange solid 1px;
 }
 
 p {
     text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: blue solid 1px;
+    margin-top: 0;
+    width: 46%;
 }
 
 .map {
     border: 0;
     max-width: 100%;
+}
+
+
+.hours > p {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -91,11 +114,11 @@ p {
     }
     .about-body {
         display: flex;
-        padding-top: 5%
     }
-    .about-img {
-        width: 50%;
-        padding-right: 5%;
+    .about-img, .map {
+        width: 46%;
+        padding-right: 2%;
+        padding-left: 2%;   
     }
    
 }

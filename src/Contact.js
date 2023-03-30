@@ -13,10 +13,16 @@ export default function Contact() {
           referrerpolicy="no-referrer-when-downgrade"
           title="map"
         ></iframe>
-        <p>
-          This is where we write the story about Jess. How she got into hair.
-          What motivates her/passions.
-        </p>
+        <div className="hours">
+          <h3>Hours</h3>
+          <p>Sunday: by appointment only</p>
+          <p>Monday: closed</p>
+          <p>Tuesday: by appointment only</p>
+          <p>Wednesday: by appointment only</p>
+          <p>Thursday: 10:00 AM - 8:00 PM</p>
+          <p>Friday: 9:00 AM - 5:00 PM</p>
+          <p>Saturday: 9:00 AM - 4:00 PM</p>
+        </div>
       </div>
     </div>
   );
