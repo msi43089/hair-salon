@@ -105,6 +105,15 @@ h3 {
     width: 46%;
 }
 
+.footer {
+    display: flex;
+    width: 100%;
+    border: solid red 1px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 @media screen and (max-width: 600px) {
     .full-menu {
       display: none;

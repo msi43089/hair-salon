@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Services from "./Services";
 import Jess from "./Jess";
 import Book from "./Book";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="book" element={<Book />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
