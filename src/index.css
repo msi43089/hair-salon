@@ -98,6 +98,13 @@ h3 {
     text-align: center;
 }
 
+.hours {
+    border: palegreen solid 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 46%;
+}
+
 @media screen and (max-width: 600px) {
     .full-menu {
       display: none;

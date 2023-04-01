@@ -24,30 +24,25 @@ export default function Navigation() {
           <div className="full-menu">
             <ul>
               <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
                 <Link to="/jess">Meet Jess</Link>
               </li>
               <li>
                 <Link to="/etiquette">Salon Etiquette</Link>
               </li>
               <li>
-                <Link to="services">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="contact ">Contact Us</Link>
+                <Link to="/book">Book</Link>
+              </li>
+              <li>
+                <Link to="/contact ">Contact Us</Link>
               </li>
             </ul>
           </div>
         </div>
         <div className={isOpen ? "open" : "collapse"}>
           <ul>
-            <li>
-              <Link to="/about" onClick={handleClick}>
-                About
-              </Link>
-            </li>
             <li>
               <Link to="/jess" onClick={handleClick}>
                 Meet Jess
@@ -64,7 +59,12 @@ export default function Navigation() {
               </Link>
             </li>
             <li>
-              <Link to="contact" onClick={handleClick}>
+              <Link to="/book" onClick={handleClick}>
+                Book
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" onClick={handleClick}>
                 Contact Us
               </Link>
             </li>
