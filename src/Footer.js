@@ -1,15 +1,18 @@
 import React from "react";
-
-import { SocialIcon } from "react-social-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
     <div className="footer">
       <div className="icon">
-        <SocialIcon
-          url="https://www.instagram.com/brondesocietyhairco/"
+        <a
+          href="https://www.instagram.com/brondesocietyhairco/"
           target="_blank"
-        />
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
       </div>
     </div>
   );

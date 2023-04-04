@@ -59,7 +59,7 @@ a:link, a:visited, a:hover, a:active {
     border: solid red 1px;
 }
 
-.about, .jess, .contact {
+.about, .jess, .contact, .services {
     padding: 5%;
     border: purple solid 1px;
 }
@@ -79,13 +79,15 @@ p {
     padding-right: 2%;
     border: blue solid 1px;
     margin-top: 0;
-    width: 46%;
+    margin-bottom: 0;
+
 }
 
 .map {
     border: 0;
     max-width: 100%;
 }
+
 
 
 .hours > p {
@@ -113,6 +115,10 @@ h3 {
     align-items: center;
 }
 
+.icon {
+    font-size: 5vh;
+}
+
 
 @media screen and (max-width: 600px) {
     .full-menu {
@@ -135,6 +141,10 @@ h3 {
         width: 46%;
         padding-right: 2%;
         padding-left: 2%;   
+    }
+
+    p {
+        width: 46%;
     }
    
 }
