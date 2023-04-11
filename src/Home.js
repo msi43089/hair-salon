@@ -1,5 +1,3 @@
-import homeImg from "./Assets/images/home.png";
-
 export default function Home() {
   return (
     <>
