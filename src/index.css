@@ -98,11 +98,11 @@ img {
     border: solid red 1px;
 }
 
-.about, .jess, .contact, .services {
+.about, .jess, .contact, .services, .etiquette {
     padding: 5%;
 }
 
-.about-title { 
+.about-title, .etiquette-title { 
     text-align: center;
 
 }

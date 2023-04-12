@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <div className="services">
-      <h2 className="about-title">Services</h2>
+      <h1 className="about-title">Services</h1>
       <div className="hc-body">
         <div className="service-title">Hair Color</div>
         <div className="hc-left">

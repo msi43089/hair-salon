@@ -3,7 +3,7 @@ import jess from "./Assets/images/jess.JPG";
 export default function Jess() {
   return (
     <div className="jess">
-      <h2 className="about-title">Meet Jess</h2>
+      <h1 className="about-title">Meet Jess</h1>
       <div className="about-body">
         <img className="about-img" src={jess} alt="arlowe" />
         <p>
