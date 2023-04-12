@@ -140,6 +140,23 @@ export default function Services() {
           </table>
         </div>
       </div>
+      <div className="wax-body">
+        <div className="wax">
+          <table>
+            <caption>Waxing</caption>
+            <tbody>
+              <tr>
+                <td>Brows:</td>
+                <td className="price">$17</td>
+              </tr>
+              <tr>
+                <td>Lip:</td>
+                <td className="price">$12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }
