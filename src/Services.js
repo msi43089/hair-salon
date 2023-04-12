@@ -101,9 +101,9 @@ export default function Services() {
         </div>
       </div>
       <div className="styling-body">
-        <div className="styling-title">Styling</div>
         <div className="styling">
           <table>
+            <caption>Styling</caption>
             <tbody>
               <tr>
                 <td>Blow out:</td>
@@ -117,6 +117,25 @@ export default function Services() {
                 <td>Updo:</td>
                 <td className="price">$90+</td>
               </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="treatments">
+          <table>
+            <caption>Treatments</caption>
+            <tbody>
+              <tr>
+                <td>Keratin Smoothing Treatment:</td>
+                <td className="price">$350</td>
+              </tr>
+              <tr>
+                <td>Deep Conditioning Treatment:</td>
+                <td className="price">$30</td>
+              </tr>
+              <td>Extensions:</td>
+              <td className="price">
+                $135<span>&#42;</span>
+              </td>
             </tbody>
           </table>
         </div>
