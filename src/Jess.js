@@ -9,11 +9,9 @@ export default function Jess() {
           <br />
           jess
         </div>
+        <div className="about-subtitle">Owner + Stylist</div>
         <img
           src="/images/jess-mobile-424w.png"
-          srcset="/images/jess-mobile-424w.png 424w, /images/jess.png 539w"
-          sizes="(max-width: 615px) 424px, (min-width: 616px)
-          539px"
           className="about-img"
           alt="arlowe"
         />

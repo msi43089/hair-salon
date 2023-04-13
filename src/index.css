@@ -205,7 +205,18 @@ caption {
   background-color: rgba(0, 0, 0, 0); 
   text-align: left;
   transform: rotate(-30deg);
+}
 
+.about-subtitle {
+    position: absolute;
+    bottom: 7%;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 15px;
+    right: 0;
+    background-color: #ffe3d6;
+    padding: 2% 5%;
+    width: 50%;
+    text-align: center;
 }
 
 .about-img {
@@ -220,6 +231,8 @@ caption {
 }
 
 @media screen and (min-width: 615px) {
+
+    /* nav on larger than mobile*/
     .hamburger, .open  {
       display: none;
     }
@@ -227,6 +240,8 @@ caption {
     ul {
         display: flex
     }
+
+    /*body's split on larger screens*/
    .services-body, .contact-body {
         display: flex;
 
@@ -255,6 +270,30 @@ caption {
     .wax {
         padding: 0 25%
     }
+
+    .about-head{
+        border: green solid 1px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .about-img {
+        max-width: 50%;
+        border: solid red 1px;
+    }
+
+    .about-title {
+        border: solid pink 2px;
+        text-align: center;
+        padding-top: 10%;
+        font-size: 125px
+    }
+
+    .about-subtitle {
+        width: 25%;
+        padding: 2% 0;
+    }
+    
    
 }
 
@@ -274,6 +313,12 @@ caption {
 @media screen and (min-width: 1100px) {
     .hc-left, .hc-right, .treatments, .styling, .wax {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .about-subtitle {
+        font-size: 18px;
     }
 }
 
