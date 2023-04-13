@@ -10,6 +10,7 @@ export default function Jess() {
           jess
         </div>
         <div className="about-subtitle">Owner + Stylist</div>
+        <div className="about-logo"></div>
         <img
           src="/images/jess-mobile-424w.png"
           className="about-img"

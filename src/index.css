@@ -12,7 +12,6 @@ html{
 nav {
     display: flex;
     flex-direction: column;
-    border: solid 2px purple;
 }
 
 .collapse {
@@ -45,7 +44,6 @@ a {
     align-items: center;
     display: flex;
     flex-direction: column;
-    border: red solid 1px;
     justify-content: center;
     
 }
@@ -72,7 +70,6 @@ a:link, a:visited, a:hover, a:active {
     overflow: hidden;
     will-change: transform;
     background: url("./Assets/images/home.png") no-repeat scroll center top transparent;
-    border: green solid 2px;
     background-origin: content-box;
     background-size: cover;
 }
@@ -105,6 +102,8 @@ img {
     text-align: center;
 
 }
+
+
 
 
 p {
@@ -185,7 +184,7 @@ caption {
 
 
 .book {
-    width:250px; padding:0; border:green solid 1px; margin:0 auto; text-align:center;
+    width:250px; padding:0; margin:0 auto; text-align:center;
 }
 
 .about-head {
@@ -259,11 +258,9 @@ caption {
     .hc-body, .styling-body {
         display: flex;
         flex-wrap: wrap;
-        border: purple solid 1px;
     }
 
     .hc-left, .hc-right, .treatments, .styling {
-        border: blue solid 1px; 
         flex: 1 0 0
     }
 
@@ -272,26 +269,39 @@ caption {
     }
 
     .about-head{
-        border: green solid 1px;
         display: flex;
         justify-content: end;
+        max-height: 100vh;
     }
 
     .about-img {
         max-width: 50%;
-        border: solid red 1px;
     }
 
     .about-title {
-        border: solid pink 2px;
         text-align: center;
-        padding-top: 10%;
+        padding-top: 5%;
         font-size: 125px
     }
 
     .about-subtitle {
         width: 25%;
         padding: 2% 0;
+    }
+
+    .about-logo {
+        background-color: #e1cabf;
+        position: absolute;
+        width: 50%;
+        height: 25%;
+        left: 0;
+        bottom: 10%;
+        background-image: url("../public/images/logo-mobile.png");
+    }
+
+    .jess {
+        padding-right: 10%;
+        padding-left: 10%
     }
     
    
