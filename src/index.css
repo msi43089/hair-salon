@@ -95,7 +95,6 @@ img {
 
 .about-img {
     width: 100%;
-    border: solid red 1px;
 }
 
 .about, .jess, .contact, .services, .etiquette {
@@ -189,6 +188,31 @@ caption {
     width:250px; padding:0; border:green solid 1px; margin:0 auto; text-align:center;
 }
 
+.about-head {
+    position: relative;
+    font-family: 'Brittany Signature', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.about-title {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 30%;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0); 
+  text-align: left;
+  transform: rotate(-30deg);
+
+}
+
+.about-img {
+    padding-top: 5%
+}
+
+
 @media screen and (max-width: 615px) {
     .full-menu {
       display: none;
@@ -203,11 +227,11 @@ caption {
     ul {
         display: flex
     }
-    .about-body, .services-body {
+   .services-body, .contact-body {
         display: flex;
 
     }
-    .about-img, .map {
+    .map {
         width: 46%;
         padding-right: 2%;
         padding-left: 2%;   
