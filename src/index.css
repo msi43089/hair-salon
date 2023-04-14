@@ -222,6 +222,49 @@ caption {
     padding-top: 5%
 }
 
+.etiquette > ul > li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #F7F7F7;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.etiquette > ul > li:hover {
+    background-color: #EFEFEF;
+}
+
+li h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.eti-p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+   
+    text-align: justify;   
+}
+
+.etiquette-title {
+    font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 
 @media screen and (max-width: 615px) {
     .full-menu {
@@ -236,7 +279,7 @@ caption {
       display: none;
     }
 
-    ul {
+    .full-menu > ul {
         display: flex
     }
 
@@ -290,13 +333,13 @@ caption {
     }
 
     .about-logo {
-        background-color: #e1cabf;
         position: absolute;
         width: 50%;
         height: 25%;
         left: 0;
-        bottom: 10%;
-        background-image: url("../public/images/logo-mobile.png");
+        background: url("../public/images/logo-bg.png") no-repeat;
+        border: red solid 2px;
+        background-size: 100% 100%;
     }
 
     .jess {
