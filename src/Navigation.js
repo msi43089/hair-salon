@@ -27,7 +27,7 @@ export default function Navigation() {
                 <Link to="/jess">Meet Jess</Link>
               </li>
               <li>
-                <Link to="/etiquette">Salon Etiquette</Link>
+                <Link to="/etiquette">Salon Policies</Link>
               </li>
               <li>
                 <Link to="/services">Services</Link>
@@ -50,7 +50,7 @@ export default function Navigation() {
             </li>
             <li>
               <Link to="/etiquette" onClick={handleClick}>
-                Salon Etiquette
+                Salon Policies
               </Link>
             </li>
             <li>

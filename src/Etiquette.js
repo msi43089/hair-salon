@@ -110,40 +110,71 @@ export default function Etiquette() {
         <li>
           <h3>Consultations/ Contracts</h3>
           <div className="eti-p">
-            A consultation is required prior to reserving a color correction
-            appointment. Consultations are recommended for all appointments but
-            required for corrections. The following information is important to
-            know if you are a client receiving a color/chemical service: Color
-            history and the use of medications must be divulged when consulting
-            with your stylist. If you are currently under the care of an MD, it
-            is your responsibility to research if color services are compatible
-            with any prescription medication or cancer treatment which you are
-            currently being treated with, or have used prior to your color
-            appointment. Your stylist is not a trained medical physician.  A
-            color correction contract MUST BE SIGNED before your color
-            correction appointment begins. You can choose to print and sign at
-            home to bring with you on the day of your appointment or you can
-            sign here at the salon before your appointment begins. If you do not
-            sign, the services will not be performed by the stylist and a
-            cancellation fee will apply. Below is a list of items to address
-            with your colorist prior to your appointment - as these items may
-            cause negative chemical reactions to the hair when mixed with salon
-            chemicals services. * previously over-processed hair: by repeatedly
-            layering dyes over porous pre-lightened hair * taking prescription
-            medication: that inadvertently alters the bonds of the hair
-            (methotrexate, sulfa based medications) * thermal damage: by
-            over-use of hot tools * use of metallic dyes, salts, or
-            minerals: (box color) or use of "over mineralized well water"
-            chemicals may cause negative reaction to enlightenment services *
-            use of henna or vegetable dyes: chemicals may cause negative
-            reaction to enlightenment services * permed or relaxed
-            hair: chemicals may cause negative reaction to enlightenment
-            services **IT IS OUR PRIORITY TO CONDUCT THOROUGH CONSULTATIONS FOR
-            ALL SERVICES PROVIDED THROUGH THE SALON, HOWEVER IT IS EACH
-            CLIENT'S PERSONAL RESPONSIBILITY TO BE UPFRONT AND HONEST ABOUT
-            THEIR HAIR HISTORY AND TO RESEARCH THE ITEMS LISTED ABOVE. ANY
-            DAMAGE CAUSED TO THE HAIR AS A RESULT OF UNDIVULGED INFORMATION
-            DURING THE CONSULTATION IS NOT THE RESPONSIBILITY OF THE STYLIST.**
+            <div className="eti-p">
+              A consultation is required prior to reserving a color correction
+              appointment. Consultations are recommended for all appointments
+              but required for corrections. The following information is
+              important to know if you are a client receiving a color/chemical
+              service:
+            </div>
+            <ul className="consults">
+              <li className="consult">
+                Color history and the use of medications must be divulged when
+                consulting with your stylist. If you are currently under the
+                care of an MD, it is your responsibility to research if color
+                services are compatible with any prescription medication or
+                cancer treatment which you are currently being treated with, or
+                have used prior to your color appointment. Your stylist is not a
+                trained medical physician.
+              </li>
+              <li className="consult">
+                A color correction contract MUST BE SIGNED before your color
+                correction appointment begins. You can choose to print and sign
+                at home to bring with you on the day of your appointment or you
+                can sign here at the salon before your appointment begins. If
+                you do not sign, the services will not be performed by the
+                stylist and a cancellation fee will apply.
+              </li>
+              <li className="consult">
+                Below is a list of items to address with your colorist prior to
+                your appointment - as these items may cause negative chemical
+                reactions to the hair when mixed with salon chemicals services:
+                <ul className="chem">
+                  <li>
+                    - Previously over-processed hair: by repeatedly layering
+                    dyes over porous pre-lightened hair
+                  </li>
+                  <li>
+                    - Taking prescription medication: that inadvertently alters
+                    the bonds of the hair (methotrexate, sulfa based
+                    medications)
+                  </li>
+                  <li>- Thermal damage: by over-use of hot tools</li>
+                  <li>
+                    - Use of metallic dyes, salts, or minerals: (box color) or
+                    use of "over mineralized well water" chemicals may cause
+                    negative reaction to enlightenment services{" "}
+                  </li>
+                  <li>
+                    - Use of henna or vegetable dyes: chemicals may cause
+                    negative reaction to enlightenment services
+                  </li>
+                  <li>
+                    - Permed or relaxed hair: chemicals may cause negative
+                    reaction to enlightenment services
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div className="disclaimer">
+              **IT IS OUR PRIORITY TO CONDUCT THOROUGH CONSULTATIONS FOR ALL
+              SERVICES PROVIDED THROUGH THE SALON, HOWEVER IT IS EACH
+              CLIENT'S PERSONAL RESPONSIBILITY TO BE UPFRONT AND HONEST ABOUT
+              THEIR HAIR HISTORY AND TO RESEARCH THE ITEMS LISTED ABOVE. ANY
+              DAMAGE CAUSED TO THE HAIR AS A RESULT OF UNDIVULGED INFORMATION
+              DURING THE CONSULTATION IS NOT THE RESPONSIBILITY OF THE
+              STYLIST.**
+            </div>
           </div>
         </li>
       </ul>

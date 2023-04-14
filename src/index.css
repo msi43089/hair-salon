@@ -103,9 +103,6 @@ img {
 
 }
 
-
-
-
 p {
     text-align: justify;
     padding-left: 2%;
@@ -247,16 +244,15 @@ li h3 {
     text-align: left;
 }
 
-.eti-p {
+.eti-p  {
     margin: 10px 0;
     font-size: 16px;
     line-height: 1.5;
-   
-    text-align: justify;   
+    text-align: left;   
 }
 
 .etiquette-title {
-    font-size: 32px;
+  font-size: 32px;
   font-weight: bold;
   color: #333333;
   margin: 20px 0;
@@ -264,6 +260,26 @@ li h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.consult, .chem {
+    text-align: left;
+    padding-bottom: 1%;
+}
+
+.consults {
+    list-style-type: disc;
+    padding-left: 5%
+}
+
+.chem > li {
+    padding-left: 3%;
+}
+
+.disclaimer {
+    font-weight: bolder;
+}
+
+
 
 
 @media screen and (max-width: 615px) {
@@ -342,7 +358,7 @@ li h3 {
         background-size: 100% 100%;
     }
 
-    .jess {
+    .jess, .etiquette {
         padding-right: 10%;
         padding-left: 10%
     }
