@@ -7,6 +7,32 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    max-height: 100%;
+}
+
+.about, .jess, .contact, .services, .etiquette {
+    padding: 5%;
+}
+
+.about-title, .etiquette-title, .contact-title { 
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.etiquette-title, .contact-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
 /*nav*/
 
 nav {
@@ -19,7 +45,7 @@ nav {
     height: 0px
 }
 
-ul {
+.nav-list {
     list-style: none;
     text-align: center;
     padding: 0;
@@ -40,12 +66,11 @@ a {
     display: flex;
 }
 
-.full-menu{
+.full-menu {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .full-menu > ul > li {
@@ -85,34 +110,51 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
-img {
-    max-height: 100%;
-}
 
+/*about jess*/
 
 .about-img {
     width: 100%;
 }
 
-.about, .jess, .contact, .services, .etiquette {
-    padding: 5%;
+.about-head {
+    position: relative;
+    font-family: 'Brittany Signature', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
 }
 
-.about-title, .etiquette-title { 
+.about-title {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 30%;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0); 
+  text-align: left;
+  transform: rotate(-30deg);
+}
+
+.about-subtitle {
+    position: absolute;
+    bottom: 7%;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 15px;
+    right: 0;
+    background-color: #ffe3d6;
+    padding: 2% 5%;
+    width: 50%;
     text-align: center;
-
 }
 
-p {
-    text-align: justify;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-top: 0;
-    margin-bottom: 0;
-
+.about-img {
+    padding-top: 5%
 }
 
 /*contact*/
+
+
 
 .map {
     border: 0;
@@ -120,19 +162,14 @@ p {
 }
 
 .hours > p {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
+    margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .hours {
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 46%;
+    flex: 1;
+    margin-left: 20px;
 }
 
 /*footer*/
@@ -179,45 +216,13 @@ caption {
     text-align: end;
 }
 
+/*book*/
 
 .book {
     width:250px; padding:0; margin:0 auto; text-align:center;
 }
 
-.about-head {
-    position: relative;
-    font-family: 'Brittany Signature', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    width: 100%;
-}
-
-.about-title {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  width: 30%;
-  height: 15%;
-  background-color: rgba(0, 0, 0, 0); 
-  text-align: left;
-  transform: rotate(-30deg);
-}
-
-.about-subtitle {
-    position: absolute;
-    bottom: 7%;
-    font-family: 'Courier New', Courier, monospace ;
-    font-size: 15px;
-    right: 0;
-    background-color: #ffe3d6;
-    padding: 2% 5%;
-    width: 50%;
-    text-align: center;
-}
-
-.about-img {
-    padding-top: 5%
-}
+/*policis*/
 
 .etiquette > ul > li {
     margin: 10px 0;
@@ -251,16 +256,6 @@ li h3 {
     text-align: left;   
 }
 
-.etiquette-title {
-  font-size: 32px;
-  font-weight: bold;
-  color: #333333;
-  margin: 20px 0;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
 .consult, .chem {
     text-align: left;
     padding-bottom: 1%;
@@ -278,9 +273,6 @@ li h3 {
 .disclaimer {
     font-weight: bolder;
 }
-
-
-
 
 @media screen and (max-width: 615px) {
     .full-menu {
@@ -302,12 +294,12 @@ li h3 {
     /*body's split on larger screens*/
    .services-body, .contact-body {
         display: flex;
+        border: solid green 2px
 
     }
     .map {
-        width: 46%;
-        padding-right: 2%;
-        padding-left: 2%;   
+        flex: 1;
+        margin-right: 20px;
     }
 
     p {

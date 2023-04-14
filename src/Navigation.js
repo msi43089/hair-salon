@@ -22,7 +22,7 @@ export default function Navigation() {
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
           <div className="full-menu">
-            <ul>
+            <ul className="nav-list">
               <li>
                 <Link to="/jess">Meet Jess</Link>
               </li>
@@ -42,7 +42,7 @@ export default function Navigation() {
           </div>
         </div>
         <div className={isOpen ? "open" : "collapse"}>
-          <ul>
+          <ul className="nav-list">
             <li>
               <Link to="/jess" onClick={handleClick}>
                 Meet Jess
