@@ -154,23 +154,51 @@ a:link, a:visited, a:hover, a:active {
 
 /*contact*/
 
-
+.contact-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
 
 .map {
-    border: 0;
+    max-width: 100%;
+    flex: 1;
+    margin-bottom: 2vh;
+    overflow: hidden;
+}
+
+.map iframe {
+    height: 300px;
     max-width: 100%;
 }
 
-.hours > p {
-    margin: 10px 0;
-  font-size: 16px;
-  line-height: 1.5;
+.contact-info {
+    padding: 0 10%;
 }
 
-.hours {
-    flex: 1;
-    margin-left: 20px;
+.contact-info > p {
+    margin: 10px 0;
+    font-size: 16px;
+   
 }
+
+
+
+.contact-info h3 {
+    font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.contact-info ul {
+    padding: 0;
+  margin: 0;
+}
+
+
 
 /*footer*/
 
@@ -294,17 +322,17 @@ li h3 {
     /*body's split on larger screens*/
    .services-body, .contact-body {
         display: flex;
-        border: solid green 2px
-
-    }
-    .map {
-        flex: 1;
-        margin-right: 20px;
     }
 
-    p {
-        width: 46%;
+    .map iframe {
+        height: 400px
     }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .hc-body, .styling-body {
         display: flex;
@@ -346,7 +374,6 @@ li h3 {
         height: 25%;
         left: 0;
         background: url("../public/images/logo-bg.png") no-repeat;
-        border: red solid 2px;
         background-size: 100% 100%;
     }
 
@@ -369,13 +396,52 @@ li h3 {
         padding: 0 35%;
         font-size: 18px;
     }
+    .contact-body {
+        flex-direction: row;
+    }
+
+    .map {
+        flex: 1;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .map iframe {
+        height: 100%;
+    }
+
+    .contact-info {
+        flex: 1;
+        margin-left: 20px;
+        padding: 0
+    }
 }
+
+/*laptop*/
 
 @media screen and (min-width: 1100px) {
     .hc-left, .hc-right, .treatments, .styling, .wax {
         font-size: 20px;
     }
 }
+
+/*large screens*/
+
+@media  screen and (min-width: 1500px) {
+    .contact {
+        margin: 0 10%
+    }
+}
+
+/*very large screens*/
+
+@media  screen and (min-width: 2000px) {
+    .contact {
+        margin: 0 15%
+    }
+}
+
+/*very small screens*/
 
 @media screen and (min-width: 400px) {
     .about-subtitle {
