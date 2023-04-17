@@ -17,9 +17,9 @@ export default function Navigation() {
     <div>
       <nav>
         <div className="nav-collapse">
-          {/* <Link to ="/"> */}
+          <Link to ="/">
             <img src={logo} alt="Company Logo"  />
-          {/* </Link> */}
+          </Link>
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
