@@ -17,9 +17,9 @@ export default function Navigation() {
     <div>
       <nav>
         <div className="nav-collapse">
-          <Link to ="/">
+          {/* <Link to ="/"> */}
             <img src={logo} alt="Company Logo"  />
-          </Link>
+          {/* </Link> */}
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
@@ -48,11 +48,11 @@ export default function Navigation() {
         </div>
         <div className={isOpen ? "open" : "collapse"}>
           <ul className="nav-list">
-            {/* <li>
+            <li>
               <Link to="/" onClick={handleClick}>
                 Home
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link to="/jess" onClick={handleClick}>
                 Meet Jess
