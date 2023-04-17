@@ -17,12 +17,17 @@ export default function Navigation() {
     <div>
       <nav>
         <div className="nav-collapse">
-          <img src={logo} alt="Company Logo" />
+          <Link to ="/">
+            <img src={logo} alt="Company Logo"  />
+          </Link>
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
           <div className="full-menu">
             <ul className="nav-list">
+              <li>
+                <Link to="/">Home</Link>
+              </li>
               <li>
                 <Link to="/jess">Meet Jess</Link>
               </li>
@@ -43,6 +48,11 @@ export default function Navigation() {
         </div>
         <div className={isOpen ? "open" : "collapse"}>
           <ul className="nav-list">
+            <li>
+              <Link to="/" onClick={handleClick}>
+                Home
+              </Link>
+            </li>
             <li>
               <Link to="/jess" onClick={handleClick}>
                 Meet Jess
