@@ -48,11 +48,11 @@ export default function Navigation() {
         </div>
         <div className={isOpen ? "open" : "collapse"}>
           <ul className="nav-list">
-            <li>
+            {/* <li>
               <Link to="/" onClick={handleClick}>
                 Home
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/jess" onClick={handleClick}>
                 Meet Jess
