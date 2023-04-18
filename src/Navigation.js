@@ -17,9 +17,7 @@ export default function Navigation() {
     <div>
       <nav>
         <div className="nav-collapse">
-          <a href ="https://hair-salon-ten.vercel.app/">
-            <img src={logo} alt="Company Logo"  />
-          </a>
+            <img src={logo} alt="Bronde Society Logo"  />
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
