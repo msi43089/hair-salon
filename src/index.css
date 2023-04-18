@@ -26,7 +26,7 @@ ul {
     list-style: none;
 }
 
-.policies-title, .contact-title, .services-title, .service-title, caption {
+.policies-title, .contact-title, .services-title {
     font-size: 32px;
     font-weight: bold;
     color: #333333;
@@ -230,16 +230,6 @@ a:link, a:visited, a:hover, a:active {
 .service-title {
     width: 100%;
     text-align: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    font-size: 20px;
-    text-decoration: underline;
-}
-
-caption {
-    padding: 2vh 0;
-    font-size: 20px;
-    text-decoration: underline;
 }
 
 .price {
@@ -285,13 +275,17 @@ caption {
     padding: 0;
 }
 
-li h3 {
+li h3, .service-title, caption {
     margin: 0;
     font-size: 18px;
     font-weight: bold;
     color: #666666;
     text-transform: uppercase;
     letter-spacing: 1px;
+   
+}
+
+li h3 {
     text-align: left;
 }
 
@@ -300,6 +294,11 @@ li h3 {
     font-size: 16px;
     line-height: 1.5;
     text-align: left;   
+}
+
+td {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .consult, .chem {
