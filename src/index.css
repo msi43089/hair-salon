@@ -250,7 +250,9 @@ a:link, a:visited, a:hover, a:active {
 /*book*/
 
 .book {
-    width:250px; padding:0; margin:0 auto; text-align:center;
+    width:300px; padding:0; margin:0 auto; text-align:center;
+    border: solid green 2px;
+    max-height: 100vh;
 }
 
 /*policis*/
