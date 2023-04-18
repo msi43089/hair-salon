@@ -28,7 +28,7 @@ export default function Contact() {
             <p>Long Branch, NJ 07740</p>
             <h3>Business Hours</h3>
               <ul>
-              <li>Sun: by appointment only</li>
+              <li className="test">Sun: by appointment only</li>
               <li>Mon: closed</li>
               <li>Tue: by appointment only</li>
               <li>Wed: by appointment only</li>
