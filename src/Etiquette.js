@@ -1,11 +1,11 @@
 export default function Etiquette() {
   return (
-    <div className="etiquette">
-      <h1 className="etiquette-title">Salon Policies</h1>
-      <ul>
+    <div className="policies">
+      <h1 className="policies-title">Salon Policies</h1>
+      <ul className="policies-list">
         <li>
           <h3>Preparing for your appointment</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             Please arrive 15 mins early to your appointment to account for
             parking. Further details on parking can be found below. Make sure
             you have CLEAN, DRY HAIR when arriving for any color services. It is
@@ -16,7 +16,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Refund Policy</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             Bronde Society does NOT offer refunds of any kind. If any
             alterations need to be done to your hair please contact us within 5
             days of your appointment.
@@ -24,7 +24,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Cancelled/Rescheduled appointment</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             Bronde Society has a 24 hour cancellation policy- we understand
             scheduling conflicts may arise but we ask for at least 24 hours of
             notice when rescheduling an appointment. If you cancel or reschedule
@@ -38,7 +38,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>No call/No show</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             If you do not call or text to cancel or reschedule your appointment
             you will be charged 100 percent of the scheduled service. If this
             its a recurring issue that you miss appointments or reschedule your
@@ -47,7 +47,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Tardiness</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             Here at Bronde Society we have a 10 minute lateness policy. If you
             are running late, please text us to let us know. Should you arrive
             beyond 10 minutes late, you may have to forfeit your appointment
@@ -58,7 +58,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Credit Card Required</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             A credit card is required to be kept on file to schedule an
             appointment. We require at least 24 hours notice if you need to
             reschedule your appointment. In the case that 24 hours notice is not
@@ -69,7 +69,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Parking</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             Please arrive 15 mins early to your appointment to account for
             parking. Spots nearest to Strand Salon Studios are metered parking.
             Metered parking is in effect from May 1st - Sept 30th. BRONDE
@@ -89,7 +89,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Timing</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             Please allow for adequate time when scheduling an appointment. Color
             appointments can last on average from 2-3.5 hours. Color corrections
             can last anywhere from 4-8+ hours.
@@ -97,7 +97,7 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Confirmation Texts</h3>
-          <div className="eti-p">
+          <div className="poly-p">
             Complimentary confirmation texts will be sent 72 hours before your
             scheduled appointment. Please be sure to confirm your appointment by
             using the prompts in the confirmation message. If you do not
@@ -109,8 +109,8 @@ export default function Etiquette() {
         </li>
         <li>
           <h3>Consultations/ Contracts</h3>
-          <div className="eti-p">
-            <div className="eti-p">
+          <div className="poly-p">
+            <div className="poly-p">
               A consultation is required prior to reserving a color correction
               appointment. Consultations are recommended for all appointments
               but required for corrections. The following information is

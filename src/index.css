@@ -12,11 +12,11 @@ img {
     max-height: 100%;
 }
 
-.about, .jess, .contact, .services, .etiquette {
+.about, .jess, .contact, .services, .policies {
     padding: 5%;
 }
 
-.about-title, .etiquette-title, .contact-title { 
+.about-title, .policies-title, .contact-title { 
     text-align: center;
 }
 
@@ -24,7 +24,7 @@ ul {
     list-style: none;
 }
 
-.etiquette-title, .contact-title {
+.policies-title, .contact-title {
     font-size: 32px;
     font-weight: bold;
     color: #333333;
@@ -253,7 +253,7 @@ caption {
 
 /*policis*/
 
-.etiquette > ul > li {
+.policies > ul > li {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
@@ -262,10 +262,15 @@ caption {
     color: #333333;
     font-size: 16px;
     line-height: 1.5;
+    
 }
 
-.etiquette > ul > li:hover {
+.policies > ul > li:hover {
     background-color: #EFEFEF;
+}
+
+.policies-list {
+    padding: 0;
 }
 
 li h3 {
@@ -278,7 +283,7 @@ li h3 {
     text-align: left;
 }
 
-.eti-p  {
+.poly-p  {
     margin: 10px 0;
     font-size: 16px;
     line-height: 1.5;
@@ -290,10 +295,12 @@ li h3 {
     padding-bottom: 1%;
 }
 
-.consults {
+.consults  {
     list-style-type: disc;
-    padding-left: 5%
+    padding-left: 5%;
 }
+
+
 
 .chem > li {
     padding-left: 3%;
@@ -378,7 +385,7 @@ li h3 {
         background-size: 100% 100%;
     }
 
-    .jess, .etiquette {
+    .jess, .policies {
         padding-right: 10%;
         padding-left: 10%
     }
