@@ -16,19 +16,20 @@ img {
     padding: 5%;
 }
 
-.about-title, .policies-title, .contact-title { 
+.about-title, .policies-title, .contact-title, .services-title { 
     text-align: center;
 }
+
+
 
 ul {
     list-style: none;
 }
 
-.policies-title, .contact-title {
+.policies-title, .contact-title, .services-title, .service-title, caption {
     font-size: 32px;
     font-weight: bold;
     color: #333333;
-    margin: 20px 0;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -245,6 +246,17 @@ caption {
     text-align: end;
 }
 
+.hc-body, .styling, .treatments, .wax {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #F7F7F7;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 10px;
+}
+
 /*book*/
 
 .book {
@@ -262,7 +274,7 @@ caption {
     color: #333333;
     font-size: 16px;
     line-height: 1.5;
-    
+
 }
 
 .policies > ul > li:hover {
@@ -299,8 +311,6 @@ li h3 {
     list-style-type: disc;
     padding-left: 5%;
 }
-
-
 
 .chem > li {
     padding-left: 3%;
