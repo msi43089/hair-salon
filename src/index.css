@@ -397,17 +397,21 @@ td {
 
     .about-img {
         max-width: 50%;
+        overflow:hidden ;
+        border: solid purple 1px
     }
 
     .about-title {
         text-align: center;
         padding-top: 5%;
-        font-size: 125px
+        font-size: 100px
     }
 
     .about-subtitle {
-        width: 25%;
-        padding: 2% 0;
+        max-width: 33%;
+        padding: 1% 1%;
+        border: solid green 1px;
+        bottom: 7%
     }
 
     .about-logo {
@@ -415,7 +419,7 @@ td {
         width: 50%;
         height: 25%;
         left: 0;
-        background: url("../public/images/new-logo-bg.png") no-repeat;
+        background: url("../public/images/logo-bg.png") no-repeat;
         background-size: 100% 100%;
     }
 
@@ -481,6 +485,22 @@ td {
     .centered {
         top: 65%;
     }
+
+    .about-head, .about-body {
+        max-width: 900px;
+    
+        border: solid green 1px;
+        max-height: 100%;
+        
+    }
+
+    .jess {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: palevioletred solid 1px
+    }
+
 }
 
 /*laptop*/
