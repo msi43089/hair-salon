@@ -14,20 +14,31 @@ export default function Contact() {
           ></iframe>
         </div>
         <div className="contact-info">
-          <div >
+          <div>
             <h3>Get In Touch</h3>
-            <p>We are taking on new clients! Please feel free to reach out via text, email or phone call. </p>
-          </div> 
+            <p>
+              We are taking on new clients! Please feel free to reach out via
+              text, email or phone call.{" "}
+            </p>
+          </div>
           <div>
             <h3>Phone</h3>
-              <p>908-596-1342</p>
+            <p>
+              <a href="tel:+1(908)596-1342">908-596-1342</a>
+            </p>
             <h3>Email</h3>
-              <p>brondesociety@gmail.com</p>
+
+            <p>
+              <a href="mailto:brondesociety@gmail.com">
+                brondesociety@gmail.com
+              </a>
+            </p>
+
             <h3>Location</h3>
             <p>16 Laird Steet</p>
             <p>Long Branch, NJ 07740</p>
             <h3>Business Hours</h3>
-              <ul>
+            <ul>
               <li className="test">Sun: by appointment only</li>
               <li>Mon: closed</li>
               <li>Tue: by appointment only</li>
@@ -35,7 +46,7 @@ export default function Contact() {
               <li>Thu: 10:00 AM - 8:00 PM</li>
               <li>Fri: 9:00 AM - 5:00 PM</li>
               <li>Sat: 9:00 AM - 4:00 PM</li>
-              </ul>
+            </ul>
           </div>
         </div>
       </div>

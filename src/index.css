@@ -12,8 +12,12 @@ img {
     max-height: 100%;
 }
 
-.about, .jess, .contact, .services, .policies {
+.about, .contact, .services, .policies {
     padding: 5%;
+}
+
+.jess {
+    padding: 1% 5% 5% 5%
 }
 
 .about-title, .policies-title, .contact-title, .services-title { 
@@ -397,8 +401,7 @@ td {
 
     .about-img {
         max-width: 50%;
-        overflow:hidden ;
-        border: solid purple 1px
+
     }
 
     .about-title {
@@ -410,7 +413,6 @@ td {
     .about-subtitle {
         max-width: 33%;
         padding: 1% 1%;
-        border: solid green 1px;
         bottom: 7%
     }
 
@@ -419,6 +421,7 @@ td {
         width: 50%;
         height: 25%;
         left: 0;
+        bottom: 10%;
         background: url("../public/images/logo-bg.png") no-repeat;
         background-size: 100% 100%;
     }
