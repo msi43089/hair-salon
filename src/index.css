@@ -20,8 +20,6 @@ img {
     text-align: center;
 }
 
-
-
 ul {
     list-style: none;
 }
@@ -138,6 +136,11 @@ a:link, a:visited, a:hover, a:active {
 
 .about-img {
     width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    border-top-left-radius: 50% 25%;
+    border-top-right-radius: 50% 25%;
 }
 
 .about-head {
@@ -146,6 +149,8 @@ a:link, a:visited, a:hover, a:active {
     font-size: 40px;
     font-weight: bold;
     width: 100%;
+    margin-bottom: 5%;
+    line-height: 1.25;
 }
 
 .about-title {
@@ -155,13 +160,13 @@ a:link, a:visited, a:hover, a:active {
   width: 30%;
   height: 15%;
   background-color: rgba(0, 0, 0, 0); 
-  text-align: left;
+  text-align: center;
   transform: rotate(-30deg);
 }
 
 .about-subtitle {
     position: absolute;
-    bottom: 7%;
+    bottom: 5%;
     font-family: 'Courier New', Courier, monospace ;
     font-size: 15px;
     right: 0;
@@ -171,9 +176,7 @@ a:link, a:visited, a:hover, a:active {
     text-align: center;
 }
 
-.about-img {
-    padding-top: 5%
-}
+
 
 /*contact*/
 

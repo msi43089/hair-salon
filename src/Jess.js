@@ -5,16 +5,14 @@ export default function Jess() {
     <div className="jess">
       <div className="about-head">
         <div className="about-title">
-          Meet
-          <br />
-          jess
+          Meet jess
         </div>
         <div className="about-subtitle">Owner + Stylist</div>
         <div className="about-logo"></div>
         <img
-          src="/images/jess-mobile-424w.png"
+          src="/images/about-jess-img-large.webp"
           className="about-img"
-          alt="arlowe"
+          alt="Jess - Owner"
         />
       </div>
       <div className="about-body">
