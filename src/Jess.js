@@ -1,11 +1,10 @@
-import jess from "./Assets/images/jess.png";
 
 export default function Jess() {
   return (
     <div className="jess">
       <div className="about-head">
         <div className="about-title">
-          Meet jess
+          Meet   jess
         </div>
         <div className="about-subtitle">Owner + Stylist</div>
         <div className="about-logo"></div>

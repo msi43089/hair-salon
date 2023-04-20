@@ -180,8 +180,6 @@ a:link, a:visited, a:hover, a:active {
     text-align: center;
 }
 
-
-
 /*contact*/
 
 .contact-body {
@@ -190,7 +188,6 @@ a:link, a:visited, a:hover, a:active {
     justify-content: space-between;
     flex-direction: column;
     color: #333333;
-
 }
 
 .map {
@@ -211,8 +208,6 @@ a:link, a:visited, a:hover, a:active {
     padding: 0 10%;
 }
 
-
-
 .contact-info h3 {
     margin: 0;
     font-size: 18px;
@@ -224,10 +219,8 @@ a:link, a:visited, a:hover, a:active {
 
 .contact-info ul {
     padding: 0;
-  margin: 0;
+    margin: 0;
 }
-
-
 
 /*footer*/
 
@@ -279,7 +272,6 @@ a:link, a:visited, a:hover, a:active {
 .book {
     width:90%; padding:0; margin:0 auto; text-align:center;
     max-height: 100%;
-    border: green 1px solid
 }
 
 /*policis*/
@@ -348,6 +340,7 @@ td {
     font-weight: bolder;
 }
 
+
 @media screen and (max-width: 615px) {
     .full-menu {
       display: none;
@@ -362,20 +355,18 @@ td {
 
 /*wide view tablets*/
 
-@media (max-height: 600px) and (min-width: 1000px) {
+@media (max-height: 650px) and (min-width: 615px) {
     .about-title {
         font-size: 60px !important;
         transform: rotate(-20deg);
         margin-left: 10%;
-        width: 40%
+        width: 40%;
     }
 
     .about-subtitle {
         bottom: 20%;
-        border: purple solid 1px
-    }
   }
-
+}
 
 @media screen and (min-width: 615px) {
 
@@ -402,7 +393,6 @@ td {
         flex-direction: column;
     }
 
-
     .hc-body, .styling-body {
         display: flex;
         flex-wrap: wrap;
@@ -418,7 +408,7 @@ td {
 
     .about-head{
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         max-height: 100vh;
         align-items: flex-end;
     }
@@ -449,7 +439,6 @@ td {
         background: url("../public/images/about-logo-med.webp") no-repeat;
         background-size: 100% 100%;
         margin-bottom: 7%;
-        
     }
 
     .jess, .policies {
@@ -468,8 +457,22 @@ td {
     .centered {
         top: 60%
     }
-}
+    .jess {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .about-head, .about-body {
+        max-width: 900px;
+        max-height: 100%;
+    }
+
+    .about-img {
+        max-height: 70vh;
+    }
+
+}
 
 @media screen and (min-width: 850px) {
     .hc-left, .hc-right, .treatments, .styling {
