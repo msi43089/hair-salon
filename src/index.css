@@ -171,7 +171,7 @@ a:link, a:visited, a:hover, a:active {
 .about-subtitle {
     position: absolute;
     bottom: 5%;
-    font-family: 'Courier New', Courier, monospace ;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     right: 0;
     background-color: #ffe3d6;
@@ -354,6 +354,29 @@ td {
     }
 }
 
+@media screen and (max-height: 500px) {
+    .about-title {
+        font-size: 20px;
+    }
+}
+
+/*wide view tablets*/
+
+@media (max-height: 600px) and (min-width: 1000px) {
+    .about-title {
+        font-size: 60px !important;
+        transform: rotate(-20deg);
+        margin-left: 10%;
+        width: 40%
+    }
+
+    .about-subtitle {
+        bottom: 20%;
+        border: purple solid 1px
+    }
+  }
+
+
 @media screen and (min-width: 615px) {
 
     /* nav on larger than mobile*/
@@ -403,8 +426,6 @@ td {
     .about-img {
         max-width: 50%;
         width: auto;
-    
-
     }
 
     .about-title {
@@ -425,7 +446,7 @@ td {
         max-height: 18vh;
         height: 18vh;
         flex: 1;
-        background: url("../public/images/about-logo-large.webp") no-repeat;
+        background: url("../public/images/about-logo-med.webp") no-repeat;
         background-size: 100% 100%;
         margin-bottom: 7%;
         
@@ -511,6 +532,16 @@ td {
 
     .about-title {
         font-size: 100px;
+    }
+
+    .about-logo {
+        position: static;
+        max-height: 18vh;
+        height: 18vh;
+        flex: 1;
+        background: url("../public/images/about-logo-large.webp") no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 7%;
     }
 
 }
