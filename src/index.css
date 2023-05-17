@@ -143,6 +143,7 @@ a:link, a:visited, a:hover, a:active {
 
 .home-container {
     display: flex;
+    flex-direction: column;
 }
 
 .bronde-def {
@@ -155,7 +156,6 @@ a:link, a:visited, a:hover, a:active {
 .bronde-img {
     text-align: center;
     flex: 1;
-    border: purple solid 1px;
     padding: 0 5%;
 }
 
@@ -169,11 +169,24 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .def {
-    border: red solid 1px;
     flex: 1;
     margin-top: 5%;
     padding: 0 10%;
+}
 
+.about-salon img {
+    max-width: 100%;
+}
+
+.about-salon {
+    max-width: 100%;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.about-salon-story {
+	margin-top: 3%;
+	padding: 0 10%
 }
 
 
@@ -518,8 +531,7 @@ td {
     .bronde-def {
         flex-direction: row;
         flex-wrap: nowrap;
-        width: 100%;
-        border: yellow solid 1px;
+        max-width: 100%;
     }
 
     .def {
@@ -540,9 +552,6 @@ td {
         padding-left: 10%;
         padding-right: 10%
     }
-
-
-
 
 }
 
