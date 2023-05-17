@@ -31,9 +31,8 @@ export default function Home() {
               <p>A color technique that fuses brown and blonde, to create a flattering, sun-kissed color result.</p>
             </div>
           </div>
-          
+          <h1 className="reviews-title">Testimonials</h1>
           <div className="reviews-container">
-            <h1>Testimonials</h1>
               <div className="review-img">
 						    <img src="/images/reviews-mobile.webp" alt="review-img" />
               </div>
