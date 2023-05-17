@@ -34,7 +34,9 @@ export default function Home() {
           
           <div className="reviews-container">
             <h1>Testimonials</h1>
-						  <img src="/images/reviews-mobile.webp" alt="review-img" className="review-img"/>
+              <div className="review-img">
+						    <img src="/images/reviews-mobile.webp" alt="review-img" />
+              </div>
 						<div className="reviews">
 							<div className="review">
                 <p className="review-body">Jess is a boss when it comes to hair. She has done a variety of things for me. Haircuts, highlights, shadow roots, color corrections, balayage and so many other things I can’t remember. She takes her time and actually explains the process and lets me know what to expect. I listen to her recommendations on shampoo/ conditioner and other hair products. She also has so much positive energy and it makes your time in her chair very enjoyable.</p>
