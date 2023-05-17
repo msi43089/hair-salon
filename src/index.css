@@ -170,23 +170,37 @@ a:link, a:visited, a:hover, a:active {
 
 .def {
     flex: 1;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 0 10%;
 }
 
-.about-salon img {
+.about-salon img, .reviews-container img {
     max-width: 100%;
 }
 
-.about-salon {
+.about-salon, .reviews-container {
     max-width: 100%;
 	text-align: center;
 	margin: 5% 0;
 }
 
-.about-salon-story {
-	margin-top: 3%;
+.about-salon-story, .reviews {
+	margin-bottom: 5%;
 	padding: 0 10%
+}
+
+.review {
+    margin-top: 5%;
+    text-align: left
+}
+
+.review-name {
+    font-style: italic;
+    font-size: larger;
+}
+
+.review-img {
+    margin-top: 5%;
 }
 
 
@@ -264,7 +278,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .contact-info h3 {
-    margin: 0;
+    margin: 5% 0 0 0;
     font-size: 18px;
     font-weight: bold;
     color: #666666;
