@@ -550,6 +550,7 @@ td {
         flex-wrap: nowrap;
         max-width: 100%;
         align-items: center;
+     
     }
 
     .def, .reviews {
@@ -571,18 +572,19 @@ td {
         padding-right: 10%
     }
 
-   
+    .reviews-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
     .review-img {
-        border: solid green 1px;
-        margin: 0;
+        margin-top: 0;    
     }
 
     .reviews {
-        border: orange solid 1px;
         margin: 0;
         padding: 5%;
-        
+        box-sizing: border-box;
     }
 
 }
