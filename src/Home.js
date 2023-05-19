@@ -33,7 +33,7 @@ export default function Home() {
               
               Have questions about your dream hair? Want to know the best services I would
               recommend to achieve your hair goals? Feel free to message me prior to 
-              reserving! You can also text <a href="tel:+1(908)-596-1342>908-596-1342</a>
+              reserving! You can also text <a href="tel:+1(908)-596-1342">908-596-1342</a>
             
             </div>
           </div>
