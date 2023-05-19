@@ -12,38 +12,15 @@ export default function Home() {
           </Link>
         </div>
         <div className="home-container">
-          <div className="about-salon">
-            <img
-              src="/images/logo-white-mobile.webp"
-              alt="logo"
-              className="salon-logo"
-            />
-            <div class="about-salon-story">
-              Welcome! I'm so happy you landed on my page. My name is Jes and I'm 
-              the owner and stylist at Bronde Hair Society Hair Co. Bronde Society 
-              is a single salon suite located inside Pier Village. I have over ten years
-              experience specializing in hair color and blonding services. I also offer
-              an array of women's services such as haircuts, styling, keratin smoothing 
-              treatments and hair extensions. My main goal as your stylist is to give you
-              your dream hair while maintaining the health of your hair. When reserving 
-              any service at Bronde Society you can expect an intimate experience since I
-              operate out of a single salon suite. I pride myself of giving my clients my
-              undivided attention during each appointment. I also enjoy being able to offer
-              my guests a tranquil environment, they are able to relax and be pampered in.
-              
-              Have questions about your dream hair? Want to know the best services I would
-              recommend to achieve your hair goals? Feel free to message me prior to 
-              reserving! You can also text <a href="tel:+1(908)-596-1342">908-596-1342</a>
-            
-            </div>
-          </div>
           <div className="bronde-def">
             <div className="bronde-img">
               <img src="/images/bronde-img-small.webp" alt="Bronde Hair" />
             </div>
             <div className="def">
               <h2>Bronde</h2>
-              <p>/brand/</p>
+              <p>
+                /br<span>&#228;</span>nd/
+              </p>
               <p>adjective</p>
               <p>adjective: bronde; adjective: brond</p>
               <br />
@@ -53,6 +30,39 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <div className="about-salon">
+            <img
+              src="/images/logo-white-mobile.webp"
+              alt="logo"
+              className="salon-logo"
+            />
+            <div class="about-salon-story">
+              <p>
+                Welcome! I'm so happy you landed on my page. My name is Jess and
+                I'm the owner and stylist at Bronde Hair Society Hair Co. Bronde
+                Society is a single salon suite located inside Pier Village. I
+                have over ten years experience specializing in hair color and
+                blonding services. I also offer an array of women's services
+                such as haircuts, styling, keratin smoothing treatments and hair
+                extensions. My main goal as your stylist is to give you your
+                dream hair while maintaining the health of your hair. When
+                reserving any service at Bronde Society you can expect an
+                intimate experience since I operate out of a single salon suite.
+                I pride myself of giving my clients my undivided attention
+                during each appointment. I also enjoy being able to offer my
+                guests a tranquil environment, they are able to relax and be
+                pampered in.
+              </p>
+              <br />
+              <p>
+                Have questions about your dream hair? Want to know the best
+                services I would recommend to achieve your hair goals? Feel free
+                to message me prior to reserving! You can also text me at{" "}
+                <a href="tel:+1(908)-596-1342">(908)-596-1342</a>.
+              </p>
+            </div>
+          </div>
+
           <h1 className="reviews-title">Testimonials</h1>
           <div className="reviews-container">
             <div className="review-img">

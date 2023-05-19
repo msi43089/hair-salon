@@ -23,7 +23,7 @@ export default function Footer() {
               <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link to="/book">Book</Link>
+              <Link to="/book">Reserve Here</Link>
             </li>
             <li>
               <Link to="/contact ">Contact Us</Link>

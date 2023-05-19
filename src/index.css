@@ -179,14 +179,22 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .about-salon, .reviews-container {
-    max-width: 100%;
+    max-width: 900px;
 	text-align: center;
-	margin: 5% 0;
+	margin: 5% auto 0 auto;
 }
 
 .about-salon-story, .reviews {
 	margin-bottom: 5%;
-	padding: 0 10%
+	padding: 0 10%;
+}
+
+.about-salon-story {
+    text-align: justify;
+}
+
+.phone {
+    color: blue;
 }
 
 .review {

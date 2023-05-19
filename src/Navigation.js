@@ -17,7 +17,7 @@ export default function Navigation() {
     <div>
       <nav>
         <div className="nav-collapse">
-            <img src={logo} alt="Bronde Society Logo"  />
+          <img src={logo} alt="Bronde Society Logo" />
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
@@ -36,7 +36,7 @@ export default function Navigation() {
                 <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/book">Book</Link>
+                <Link to="/book">Reserve Here</Link>
               </li>
               <li>
                 <Link to="/contact ">Contact Us</Link>
@@ -68,7 +68,7 @@ export default function Navigation() {
             </li>
             <li>
               <Link to="/book" onClick={handleClick}>
-                Book
+                Reserve Here
               </Link>
             </li>
             <li>
