@@ -171,6 +171,7 @@ a:link, a:visited, a:hover, a:active {
     flex: 1;
     margin-top: 10%;
     padding: 0 10%;
+    margin-bottom: 5%;
 }
 
 .about-salon img, .reviews-container img {
@@ -199,13 +200,19 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .review-img {
-    margin-top: 5%;
     padding: 0 10%;
 }
 
 .reviews-title {
     text-align: center;
-    margin-top: 5%;
+    margin: 5% 10% 0 10%;
+}
+
+.reviews-title {
+    border-top: black solid 1px;
+    padding-top: 5%;
+    padding-bottom: 0   ;
+
 }
 
 /*about jess*/
@@ -301,10 +308,57 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     flex-direction: column;
     align-items: center;
+    border-top: black 1px solid;
+    box-sizing: border-box;
+}
+
+.footer-menu {
+    text-align: left;
+    font-size: small;
+    flex: 0 0 30%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+.footer-menu ul {
+    padding: 0;
+}
+
+.footer-contact {
+    font-size: small;
+    text-align: end;
+    flex: 0 0 70%;
+    box-sizing: border-box;
+    padding-right: 5%;
+}
+
+.footer-info {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 5%;
+}
+
+.footer-list {
+    text-decoration: underline;
 }
 
 .icon {
-    font-size: 5vh;
+    font-size: 2.5vh;
+    padding: 0 5%;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+
+}
+
+.copyright {
+    font-size: small;
 }
 
 /*services*/
