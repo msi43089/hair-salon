@@ -19,12 +19,22 @@ export default function Home() {
               className="salon-logo"
             />
             <div class="about-salon-story">
-              Bronde Society Hair Co. is a single salon suite located inside of
-              Strand Salon Studios. We are based out of Pier Village - Long
-              Branch, NJ. Brond Society Hair Co. is operated by Jessica
-              Anderson. Jess specializes in blonde & bronde hair color. She alos
-              offers an array of other women's services such as hair cuts,
-              styling, keratin treatments and extensions.
+              Welcome! I'm so happy you landed on my page. My name is Jes and I'm 
+              the owner and stylist at Bronde Hair Society Hair Co. Bronde Society 
+              is a single salon suite located inside Pier Village. I have over ten years
+              experience specializing in hair color and blonding services. I also offer
+              an array of women's services such as haircuts, styling, keratin smoothing 
+              treatments and hair extensions. My main goal as your stylist is to give you
+              your dream hair while maintaining the health of your hair. When reserving 
+              any service at Bronde Society you can expect an intimate experience since I
+              operate out of a single salon suite. I pride myself of giving my clients my
+              undivided attention during each appointment. I also enjoy being able to offer
+              my guests a tranquil environment, they are able to relax and be pampered in.
+              
+              Have questions about your dream hair? Want to know the best services I would
+              recommend to achieve your hair goals? Feel free to message me prior to 
+              reserving! You can also text <a href="tel:+1(908)-596-1342>908-596-1342</a>
+            
             </div>
           </div>
           <div className="bronde-def">
