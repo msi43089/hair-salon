@@ -150,6 +150,7 @@ a:link, a:visited, a:hover, a:active {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: stretch;
+    margin-top: 10%;
 }
 
 .bronde-img {
@@ -610,9 +611,10 @@ td {
     .bronde-def, .reviews-container {
         flex-direction: row;
         flex-wrap: nowrap;
-        max-width: 100%;
+        max-width: 900px;
         align-items: center;
-     
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .def, .reviews {
