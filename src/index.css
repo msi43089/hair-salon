@@ -224,6 +224,10 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
+.reviews {
+    flex-direction: column;
+}
+
 /*about jess*/
 
 .about-img {
@@ -639,18 +643,46 @@ td {
     .reviews-container {
         display: flex;
         flex-direction: row-reverse;
+        border: solid red 1px;
+        box-sizing: border-box;
+        
     }
 
     .review-img {
-        margin-top: 0;    
+        margin-top: 0; 
+        border: solid purple 1px;   
+    }
+
+    .review-img img {
+        width: 100%;
+        padding: 0 10%;
+        box-sizing: border-box;
     }
 
     .reviews {
         margin: 0;
         padding: 5%;
         box-sizing: border-box;
+        border: solid orange 1px;
     }
 
+}
+
+@media screen and (max-width: 800px) and (min-width: 615px){
+    .reviews-container {
+        flex-direction: column;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .review {
+        padding: 0 2.5%;
+        margin-top: 0
+    }
+    
 }
 
 @media screen and (min-width: 850px) {
