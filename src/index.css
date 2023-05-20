@@ -643,14 +643,12 @@ td {
     .reviews-container {
         display: flex;
         flex-direction: row-reverse;
-        border: solid red 1px;
         box-sizing: border-box;
         
     }
 
     .review-img {
-        margin-top: 0; 
-        border: solid purple 1px;   
+        margin-top: 0;  
     }
 
     .review-img img {
@@ -663,7 +661,6 @@ td {
         margin: 0;
         padding: 5%;
         box-sizing: border-box;
-        border: solid orange 1px;
     }
 
 }

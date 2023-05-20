@@ -27,6 +27,9 @@ export default function Navigation() {
                 <Link to="/">Home</Link>
               </li>
               <li>
+                <Link to="/book">Reserve Here</Link>
+              </li>
+              <li>
                 <Link to="/jess">Meet Jess</Link>
               </li>
               <li>
@@ -34,9 +37,6 @@ export default function Navigation() {
               </li>
               <li>
                 <Link to="/services">Services</Link>
-              </li>
-              <li>
-                <Link to="/book">Reserve Here</Link>
               </li>
               <li>
                 <Link to="/contact ">Contact Us</Link>
@@ -52,6 +52,11 @@ export default function Navigation() {
               </Link>
             </li>
             <li>
+              <Link to="/book" onClick={handleClick}>
+                Reserve Here
+              </Link>
+            </li>
+            <li>
               <Link to="/jess" onClick={handleClick}>
                 Meet Jess
               </Link>
@@ -64,11 +69,6 @@ export default function Navigation() {
             <li>
               <Link to="/services" onClick={handleClick}>
                 Services
-              </Link>
-            </li>
-            <li>
-              <Link to="/book" onClick={handleClick}>
-                Reserve Here
               </Link>
             </li>
             <li>
