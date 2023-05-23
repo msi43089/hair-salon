@@ -30,6 +30,9 @@ export default function Navigation() {
                 <Link to="/book">Reserve Here</Link>
               </li>
               <li>
+                <Link to="/gift-certificates">Gift Certificates</Link>
+              </li>
+              <li>
                 <Link to="/jess">Meet Jess</Link>
               </li>
               <li>
@@ -54,6 +57,11 @@ export default function Navigation() {
             <li>
               <Link to="/book" onClick={handleClick}>
                 Reserve Here
+              </Link>
+            </li>
+            <li>
+              <Link to="/gift-certificates" onClick={handleClick}>
+                Gift Certificates
               </Link>
             </li>
             <li>

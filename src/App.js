@@ -20,6 +20,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="etiquette" element={<Etiquette />} />
           <Route path="jess" element={<Jess />} />
+          <Route path="gift-certificates" element={<Book />} />
           <Route path="book" element={<Book />} />
         </Routes>
       </div>
