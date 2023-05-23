@@ -10,6 +10,7 @@ export default function Book() {
 
     const vagaroParent = document.querySelector(".vagaro");
     vagaroParent.appendChild(script);
+    console.log(vagaroParent);
     return () => {
       vagaroParent.removeChild(script);
     };

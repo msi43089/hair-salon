@@ -410,9 +410,11 @@ a:link, a:visited, a:hover, a:active {
 
 .book {
     width:90%; padding:0; margin:0 auto; text-align:center;
+    min-height: 80vh;
     max-height: 100%;
     max-width: 1000px;
 }
+
 
 /*policis*/
 
