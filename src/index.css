@@ -646,6 +646,7 @@ td {
         display: flex;
         flex-direction: row-reverse;
         box-sizing: border-box;
+        margin-top: 0;
         
     }
 
