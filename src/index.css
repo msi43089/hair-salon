@@ -663,6 +663,17 @@ td {
         box-sizing: border-box;
     }
 
+    .footer-info {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .icons {
+        padding-top: 1%
+    }
+
+    
+
 }
 
 @media screen and (max-width: 800px) and (min-width: 615px){
@@ -753,6 +764,10 @@ td {
         background: url("../public/images/about-logo-large.webp") no-repeat;
         background-size: 100% 100%;
         margin-bottom: 7%;
+    }
+
+    .footer-info {
+        max-width: 1000px;
     }
 
 }
