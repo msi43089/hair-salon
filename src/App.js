@@ -8,6 +8,7 @@ import Services from "./Services";
 import Jess from "./Jess";
 import Book from "./Book";
 import Footer from "./Footer";
+import Gift from "./Gift";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="etiquette" element={<Etiquette />} />
           <Route path="jess" element={<Jess />} />
-          <Route path="gift-certificates" element={<Book />} />
+          <Route path="gift-certificates" element={<Gift />} />
           <Route path="book" element={<Book />} />
         </Routes>
       </div>
