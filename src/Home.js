@@ -66,7 +66,7 @@ export default function Home() {
           <h1 className="reviews-title">Testimonials</h1>
           <div className="reviews-container">
             <div className="review-img">
-              <img src="/images/reviews-mobile.webp" alt="review-img" />
+              <img src="/images/reviews-mobile-2.webp" alt="review-img" />
             </div>
             <div className="reviews">
               <div className="review">

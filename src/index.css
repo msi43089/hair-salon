@@ -656,8 +656,9 @@ td {
 
     .review-img img {
         width: 100%;
-        padding: 0 10%;
+        padding: 0 5%;
         box-sizing: border-box;
+
     }
 
     .reviews {
