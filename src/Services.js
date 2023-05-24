@@ -55,7 +55,7 @@ export default function Services() {
           <table>
             <tbody>
               <tr>
-                <td>Root Touch Up:</td>
+                <td>Root Touch Up(6 weeks or less):</td>
                 <td class="price">$75</td>
               </tr>
               <tr>
@@ -63,14 +63,10 @@ export default function Services() {
                 <td class="price">$130</td>
               </tr>
               <tr>
-                <td>Bleach & Tone Touch Up:</td>
+                <td>Bleach & Tone Touch Up(4 weeks or less):</td>
                 <td class="price">$175</td>
               </tr>
               <br />
-              <tr>
-                <td>Toner:</td>
-                <td class="price">$20</td>
-              </tr>
               <tr>
                 <td>Root Tap:</td>
                 <td class="price">$20</td>
@@ -133,9 +129,7 @@ export default function Services() {
                 <td className="price">$30</td>
               </tr>
               <td>Extensions:</td>
-              <td className="price">
-                $135<span>&#42;</span>
-              </td>
+              <td className="price">Upon Consultation</td>
             </tbody>
           </table>
         </div>

@@ -39,19 +39,19 @@ export default function Home() {
             <div class="about-salon-story">
               <p>
                 Welcome! I'm so happy you landed on my page. My name is Jess and
-                I'm the owner and stylist at Bronde Hair Society Hair Co. Bronde
+                I'm the owner and stylist at Bronde Society Hair Co. Bronde
                 Society is a single salon suite located inside Pier Village. I
                 have over ten years experience specializing in hair color and
                 blonding services. I also offer an array of women's services
                 such as haircuts, styling, keratin smoothing treatments and hair
                 extensions. My main goal as your stylist is to give you your
-                dream hair while maintaining the health of your hair. When
-                reserving any service at Bronde Society you can expect an
-                intimate experience since I operate out of a single salon suite.
-                I pride myself of giving my clients my undivided attention
-                during each appointment. I also enjoy being able to offer my
-                guests a tranquil environment, they are able to relax and be
-                pampered in.
+                dream hair while maintaining the integrity, and never
+                compromising the health of your hair. When reserving any service
+                at Bronde Society you can expect an intimate experience since I
+                operate out of a single salon suite. I pride myself on giving my
+                clients my undivided attention during each appointment. I also
+                enjoy being able to offer my guests a tranquil environment, they
+                are able to relax and be pampered in.
               </p>
               <br />
               <p>

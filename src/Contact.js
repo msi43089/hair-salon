@@ -35,7 +35,7 @@ export default function Contact() {
             </p>
 
             <h3>Location</h3>
-            <p>16 Laird Steet</p>
+            <p>16 Laird Street</p>
             <p>Long Branch, NJ 07740</p>
             <h3>Business Hours</h3>
             <ul>

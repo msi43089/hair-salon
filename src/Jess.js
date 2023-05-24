@@ -1,11 +1,8 @@
-
 export default function Jess() {
   return (
     <div className="jess">
       <div className="about-head">
-        <div className="about-title">
-          Meet   jess
-        </div>
+        <div className="about-title">Meet jess</div>
         <div className="about-subtitle">Owner + Stylist</div>
         <div className="about-logo"></div>
         <img
@@ -16,7 +13,7 @@ export default function Jess() {
       </div>
       <div className="about-body">
         <p>
-          Hi Bronde Babe! Welcome to Bronde Soceity Hair Co. We are located
+          Hi Bronde Babe! Welcome to Bronde Society Hair Co. We are located
           inside Strand Salon Studios Suite 6 in Pier Village. My name is Jess
           and I am the owner and stylist behind all of the hair pics. I am a
           second generation hair stylist with over 10 years of experience in the

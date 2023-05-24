@@ -23,7 +23,7 @@ export default function Etiquette() {
           </div>
         </li>
         <li>
-          <h3>Cancelled/Rescheduled appointment</h3>
+          <h3>Canceled/Rescheduled appointment</h3>
           <div className="poly-p">
             Bronde Society has a 24 hour cancellation policy- we understand
             scheduling conflicts may arise but we ask for at least 24 hours of
@@ -101,10 +101,10 @@ export default function Etiquette() {
             Complimentary confirmation texts will be sent 72 hours before your
             scheduled appointment. Please be sure to confirm your appointment by
             using the prompts in the confirmation message. If you do not
-            confirm, your appointment will be cancelled and our cancellation
+            confirm, your appointment will be canceled and our cancellation
             policy will apply. Please understand that it is your responsibility
             to remember your appointment dates and times to avoid late arrivals,
-            missed/cancelled appointments and the cancellation fee.
+            missed/canceled appointments and the cancellation fee.
           </div>
         </li>
         <li>
