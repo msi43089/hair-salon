@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Turn as Hamburger } from "hamburger-react";
-import logo from "./Assets/images/logo-mobile.png";
 
 export default function Navigation() {
   const [isOpen, setOpen] = useState(false);
@@ -17,7 +16,7 @@ export default function Navigation() {
     <div>
       <nav>
         <div className="nav-collapse">
-          <img src={logo} alt="Bronde Society Logo" />
+          <img src="/images/logo-white-mobile.webp" alt="Bronde Society Logo" />
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
