@@ -16,7 +16,10 @@ export default function Navigation() {
     <div>
       <nav>
         <div className="nav-collapse">
-          <img src="/images/logo-white-mobile.webp" alt="Bronde Society Logo" />
+          <img
+            src="/images/logo-white-mobile.webp"
+            alt="Bronde Society Hair Logo"
+          />
           <div className="hamburger">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>

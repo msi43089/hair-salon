@@ -14,7 +14,10 @@ export default function Home() {
         <div className="home-container">
           <div className="bronde-def">
             <div className="bronde-img">
-              <img src="/images/bronde-img-small.webp" alt="Bronde Hair" />
+              <img
+                src="/images/bronde-img-small.webp"
+                alt="Womean with Bronde Hair"
+              />
             </div>
             <div className="def">
               <h2>Bronde</h2>
@@ -33,7 +36,7 @@ export default function Home() {
           <div className="about-salon">
             <img
               src="/images/logo-white-mobile.webp"
-              alt="logo"
+              alt="Bronde Society Hair logo"
               className="salon-logo"
             />
             <div class="about-salon-story">
@@ -66,7 +69,10 @@ export default function Home() {
           <h1 className="reviews-title">Testimonials</h1>
           <div className="reviews-container">
             <div className="review-img">
-              <img src="/images/reviews-mobile-2.webp" alt="review-img" />
+              <img
+                src="/images/reviews-mobile-2.webp"
+                alt="Portrait photo of woman with blonde hair"
+              />
             </div>
             <div className="reviews">
               <div className="review">
