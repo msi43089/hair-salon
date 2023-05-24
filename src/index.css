@@ -103,7 +103,7 @@ a:link, a:visited, a:hover, a:active {
     margin: 0;
     overflow: hidden;
     will-change: transform;
-    background: url("../public/images/home.png") no-repeat scroll center top transparent;
+    background: url("../public/images/home-bg.webp") no-repeat scroll center top transparent;
     background-origin: content-box;
     background-size: cover;
 }
