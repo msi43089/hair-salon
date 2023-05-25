@@ -255,6 +255,7 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     margin-bottom: 5%;
     line-height: 1.25;
+    min-height: 80vh;
 }
 
 .about-title {
