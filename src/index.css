@@ -8,6 +8,14 @@ html{
     background-color: #ffffff;
 }
 
+@font-face {
+    font-family: brittany signature;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Brittany Signature'),url(https://fonts.cdnfonts.com/s/39082/BrittanySignature-LjyZ.woff) format('woff');
+    font-display: swap;
+}
+
 img {
     max-height: 100%;
 }
