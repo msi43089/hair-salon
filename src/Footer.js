@@ -40,7 +40,7 @@ export default function Footer() {
           </p>
           <br />
           <p>Bronde Society Hair Co.</p>
-          <p>16 Laird Street</p>
+          <p>16 Laird Street, Suite 1</p>
           <p>Long Branch, NJ 07740</p>
         </div>
       </div>

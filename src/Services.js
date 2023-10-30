@@ -9,16 +9,16 @@ export default function Services() {
             <tbody>
               <tr>
                 <td>Platinum Card:</td>
-                <td class="price">$385</td>
+                <td class="price">$400</td>
               </tr>
               <br />
               <tr>
                 <td>Heavy Full Foil:</td>
-                <td class="price">$300</td>
+                <td class="price">$360</td>
               </tr>
               <tr>
                 <td>Classic Full Foil:</td>
-                <td class="price">$230</td>
+                <td class="price">$250</td>
               </tr>
               <br />
               <tr>
@@ -27,16 +27,16 @@ export default function Services() {
               </tr>
               <tr>
                 <td>Classic Partial:</td>
-                <td class="price">$185</td>
+                <td class="price">$200</td>
               </tr>
               <br />
               <tr>
                 <td>Heavy Balayage:</td>
-                <td class="price">$300</td>
+                <td class="price">$320</td>
               </tr>
               <tr>
                 <td>Classic Balayage:</td>
-                <td class="price">$265</td>
+                <td class="price">$285</td>
               </tr>
               <br />
               <tr>
@@ -56,11 +56,11 @@ export default function Services() {
             <tbody>
               <tr>
                 <td>Root Touch Up(6 weeks or less):</td>
-                <td class="price">$75</td>
+                <td class="price">$80</td>
               </tr>
               <tr>
                 <td>Single Process:</td>
-                <td class="price">$130</td>
+                <td class="price">$135</td>
               </tr>
               <tr>
                 <td>Bleach & Tone Touch Up(4 weeks or less):</td>
@@ -69,11 +69,11 @@ export default function Services() {
               <br />
               <tr>
                 <td>Root Tap:</td>
-                <td class="price">$20</td>
+                <td class="price">$25</td>
               </tr>
               <tr>
                 <td>Extra Color:</td>
-                <td class="price">$22</td>
+                <td class="price">$25</td>
               </tr>
               <tr>
                 <td>Low lights:</td>
@@ -81,12 +81,12 @@ export default function Services() {
               </tr>
               <tr>
                 <td>Glaze:</td>
-                <td class="price">$65</td>
+                <td class="price">$70</td>
               </tr>
               <br />
               <tr>
                 <td>Haircut:</td>
-                <td class="price">$50</td>
+                <td class="price">$65</td>
               </tr>
               <tr>
                 <td>Haircut w/ color:</td>
@@ -103,7 +103,7 @@ export default function Services() {
             <tbody>
               <tr>
                 <td>Blow out:</td>
-                <td className="price">$40</td>
+                <td className="price">$45</td>
               </tr>
               <tr>
                 <td>Blow out + iron working:</td>
@@ -127,6 +127,14 @@ export default function Services() {
               <tr>
                 <td>Deep Conditioning Treatment:</td>
                 <td className="price">$30</td>
+              </tr>
+              <tr>
+                <td>Mineral Treatment:</td>
+                <td className="price">$45</td>
+              </tr>
+              <tr>
+                <td>Scalp Treatment:</td>
+                <td className="price">$75</td>
               </tr>
               <td>Extensions:</td>
               <td className="price">Upon Consultation</td>
